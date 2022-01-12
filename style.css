@@ -1,0 +1,234 @@
+* {
+    /*border: 2px black solid;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(199, 4, 4);
+}
+
+header,
+footer {
+    background-image: linear-gradient(rgb(214, 15, 15), rgb(32, 0, 0));
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 260px;
+
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+}
+
+#main {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#subt {
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    gap: 150px;
+    background-image: linear-gradient(to right, rgba(58, 58, 58, 1), rgba(255, 255, 255, 0)), url("https://www.chibikiu.com/wp-content/uploads/2021/07/san-old-trafford-1-1440x972.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+    color: white;
+}
+
+.herotext {
+    max-width: 500px;
+}
+
+#big {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#small {
+    font-size: small;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#img1 {
+    width: 600px;
+}
+
+#logomain {
+    min-width: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    flex: 1 0 auto;
+    align-self: center;
+}
+
+#players {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+
+.title {
+    align-self: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.players {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.playerimg {
+    border-radius: 8px;
+}
+
+.frame {
+    border-radius: 8px;
+    border: 7px red solid;
+    padding: 5px;
+}
+
+.info {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#philosophy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: linear-gradient(to right, rgba(58, 58, 58, 1), rgba(255, 255, 255, 0)), url("https://imgresizer.eurosport.com/unsafe/2560x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2012/11/23/915282-19871842-2560-1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    background-position-x: 0%;
+}
+
+#boxquote {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    margin:200px;
+    box-shadow: 10px 10px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    align-self: flex-end;
+    text-align: center;
+    width: 800px;
+
+}
+
+#sourcename{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.follow-us {
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: rgb(255, 217, 0);
+    color: black;
+}
+
+#get-involved{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cta-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    margin: 50px;
+    width: 800px;
+}
+
+#cta-box{
+    border-radius: 15px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px 15px;
+    box-shadow: 10px 10px black;
+}
+.button2{
+    padding: 10px 5px;
+    height: 50px;
+    align-self: center;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: rgb(255, 217, 0);
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    align-self: center;
+}
